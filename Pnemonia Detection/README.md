@@ -67,17 +67,18 @@ Libraries               : Keras, TensorFlow, DenseNet121, ImageNet
 
 
 ### Sample Output: 
-<b>True Label: Pneumonia | Predicted Label: Pneumonia</b>
+
 <kbd>
 <img src="Images/Pneumonia_GradCAM.PNG" width="500px">
 </kbd>
+<b>True Label: Pneumonia | Predicted Label: Pneumonia</b>
 
-<b>True Label: Normal | Predicted Label: Normal</b>
 <kbd>
 <img src="Images/Normal_GradCAM.PNG" width="500px">
 </kbd>
+<b>True Label: Normal | Predicted Label: Normal</b>
 
-### Confusion Matrix (With Threshold of 0.5% Probability): 
+### Confusion Matrix (With Threshold of 50% Probability): 
 <kbd>
 <img src="Images/CM_with_threshold50.PNG" alt="Confusion Matrix" width="500px" height="500px">
 </kbd>
