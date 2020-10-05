@@ -69,11 +69,11 @@ Libraries               : Keras, TensorFlow, DenseNet121, ImageNet
 #### Sample Output: 
 <kbd>
 <b>True Label: Pneumonia | Predicted Label: Pneumonia</b>
-<img src="Images/Pneumonia_GradCAM.jpg">
+<img src="Images/Pneumonia_GradCAM.PNG" width="500px">
 </kbd>
 <kbd>
 <b>True Label: Normal | Predicted Label: Normal</b>
-<img src="Images/Normal_GradCAM.jpg">
+<img src="Images/Normal_GradCAM.PNG" width="500px">
 </kbd>
 
 #### Confusion Matrix (With Threshold of 0.5% Probability): 
@@ -88,7 +88,7 @@ Libraries               : Keras, TensorFlow, DenseNet121, ImageNet
 
 ### Links to Project
 <pre>
-GitHub       : <a href=https://github.com/kareliaconsolidated/Pneumonia_detection>Pneumonia Detection</a>
+GitHub       : <a href=https://github.com/KareliaConsolidated/Projects/tree/master/Pnemonia%20Detection>Pneumonia Detection</a>
 Live Project : <a href=https://pneumonia-detect-kc.herokuapp.com/>Pneumonia Detection</a> 
 Kaggle       : <a href=https://www.kaggle.com/kareliaconsolidated/pretrained-pneumonia-detection-90-ac-98-recall>Pneumonia Detection</a>
 </pre>
