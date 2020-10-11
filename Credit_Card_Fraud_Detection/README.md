@@ -1,7 +1,7 @@
-# Machine Learning Project: Credit Card Fraud Detection
+# Data Science Project: Credit Card Fraud Detection
 
 <pre>
-Domain             : Computer Vision, Machine Learning
+Domain             : Machine Learning, Data Science
 Techniques         : Random Forest Classifier, Logistic Regression, GridSearchCV
 Application        : Fraud Detection
 </pre>
@@ -9,13 +9,17 @@ Application        : Fraud Detection
 ### Description
 <pre>
 A Machine Learning Model which is able to detect Fraudulent Credit Card transactions. 
+
 Before training our model, the biggest problem encountered is of class imbalance in our dataset.
 I have used different techniques such as SMOTE to oversample our dataset to overcome this problem.
+
 Later, I have used different algorithm to train model.
-In a problem like Credit Card Fraud, it is equally important to distinguish between fraud and non-fraud transactions, 
-therefore good score for precision and recall is necessary, keeping that in consideration we moved forward.
-We get an accuracy of above 99%, recall of 84%, precision of 82% and f1-score of 83% which seems pretty 
-well due to the balance between precision and recall score. 
+In a problem like Credit Card Fraud, it is equally important to distinguish between fraud and 
+non-fraud transactions, therefore good score for precision and recall is necessary, keeping that in 
+consideration we moved forward.
+
+We get an accuracy of above 99%, recall of 84%, precision of 82% and f1-score of 83% which seems 
+pretty well due to the balance between precision and recall score. 
 </pre>
 
 ### Dataset
@@ -28,11 +32,11 @@ transformed with PCA are 'Time' and 'Amount'.
 
 There are 284807 number of transactions(rows) and 31 features in this dataset.
 
-Time: It contains the seconds elapsed between each transaction and the first transaction in the dataset. 
+<b>Time:</b> It contains the seconds elapsed between each transaction and the first transaction in the dataset. 
 
-Amount: It is the transaction Amount.
+<b>Amount:</b> It is the transaction Amount.
 
-Class: It is the response variable and it takes value 1 in case of fraud and 0 otherwise.
+<b>Class:</b> It is the response variable and it takes value 1 in case of fraud and 0 otherwise.
 </pre>
 
 ### Dataset Links
@@ -45,7 +49,7 @@ Link         : <a href=https://www.kaggle.com/mlg-ulb/creditcardfraud>Credit Car
 <pre>
 Languages               : Python, Flask, HTML, CSS
 Tools/IDE               : Anaconda
-Libraries               : sklearn, matplotlib, seaborn
+Libraries               : sklearn, matplotlib, seaborn, numpy, pandas
 </pre>
 
 <b>Model Evaluation (Testing Set)</b>
@@ -61,7 +65,7 @@ Libraries               : sklearn, matplotlib, seaborn
 
 ### Links to Project
 <pre>
-GitHub       : <a href=https://github.com/KareliaConsolidated/Projects/tree/master/Credit_Card_Fraud_Detection>Pneumonia Detection</a>
-Live Project : <a href=https://credit-card-fraud-det-kc.herokuapp.com/>Pneumonia Detection</a> 
-Kaggle       : <a href=https://www.kaggle.com/kareliaconsolidated/credit-card-fraud-detection>Pneumonia Detection</a>
+GitHub       : <a href=https://github.com/KareliaConsolidated/Projects/tree/master/Credit_Card_Fraud_Detection>Credit Card Fraud Detection</a>
+Live Project : <a href=https://credit-card-fraud-det-kc.herokuapp.com/>Credit Card Fraud Detection</a> 
+Kaggle       : <a href=https://www.kaggle.com/kareliaconsolidated/credit-card-fraud-detection>Credit Card Fraud Detection</a>
 </pre>
